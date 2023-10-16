@@ -1,0 +1,7 @@
+[project]
+name = "hfdl"
+version = "0.1.0"
+dependencies = ["huggingface-hub>=0.16.4"]
+
+[project.scripts]
+hfdl = "hfdl:hfdl"
